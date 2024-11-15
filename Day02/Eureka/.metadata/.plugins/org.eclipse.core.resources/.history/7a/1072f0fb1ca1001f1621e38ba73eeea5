@@ -1,0 +1,5 @@
+Each microservice has its own database. This pattern is known as database per service
+
+Challenges in implementing microservice
+1. As each microservice is deployed independently it is very common that they want to communicate with each other
+2. 

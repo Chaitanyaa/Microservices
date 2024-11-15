@@ -1,0 +1,20 @@
+package com.walmart.ecommerce.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.walmart.ecommerce.entity.Email;
+import com.walmart.ecommerce.entity.Product;
+import com.walmart.ecommerce.repository.ProductRepository;
+import com.walmart.ecommerce.service.EmailService;
+
+@Service // Used to mark this class as spring bean 
+public class EmailServiceImpl implements EmailService {
+	
+	@Override
+	public boolean sendEmail(Email e) {
+		System.out.println("Email sent to used "+ e.getTo());
+		return true;
+	}
+	
+}

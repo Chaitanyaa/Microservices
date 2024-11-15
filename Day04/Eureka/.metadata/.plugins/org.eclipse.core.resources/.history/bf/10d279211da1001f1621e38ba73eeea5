@@ -1,0 +1,12 @@
+Each microservice has its own database. 
+This pattern is known as database per service
+
+Challenges in implementing microservice
+1. As each microservice is deployed independently it is very common that they want to communicate with each other
+2. The most common way is to make a rest call
+3. Making REST call is not only time consuming but also error prone.
+4. So to make REST calls declarative, we use a library known as "OpenFeign"
+
+Steps to use OpenFeign:
+1. Add the dependency 
+2. Create an interface

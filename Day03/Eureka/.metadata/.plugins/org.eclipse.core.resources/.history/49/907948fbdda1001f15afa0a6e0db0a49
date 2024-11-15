@@ -1,0 +1,5 @@
+package com.walmart.ecommerce.rest.controller;
+
+public class HelloRestController {
+
+}

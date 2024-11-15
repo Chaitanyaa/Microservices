@@ -1,0 +1,8 @@
+package com.walmart.ecommerce.feign.client;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(url="http://localhost:8081",name="cs")
+public interface CouponFeignClient {
+	
+}

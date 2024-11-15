@@ -1,0 +1,14 @@
+spring.application.name=4-SpringBooDataJPA
+
+#This is a built-in file used to customize the configuration
+#There are lot of built-in properties given by spring team
+
+#Datasource properties
+spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
+spring.datasource.username=root
+spring.datasource.password=Training@1234
+
+#JPA Properties
+spring.jpa.show-sql=true
+#create table if not exists
+spring.jpa.hibernate.ddl-auto=update

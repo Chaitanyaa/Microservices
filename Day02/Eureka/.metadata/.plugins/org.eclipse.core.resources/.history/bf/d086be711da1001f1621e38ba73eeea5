@@ -1,0 +1,5 @@
+package com.walmart.ecommerce.feign.client;
+
+public interface CouponFeignClient {
+
+}

@@ -1,0 +1,6 @@
+1731430036578	Encapsulate field 'discount, ...'
+1731430086990	Rename compilation unit 'Product.java'
+1731430113523	Rename type 'ProductRepository'
+1731430140635	Rename compilation unit 'ProductService.java'
+1731430156423	Rename type 'ProductServiceImpl'
+1731430307856	Rename type 'ProductRestController'
