@@ -1,0 +1,5 @@
+package com.walmart.ecommerce.service;
+
+public interface ProductService {
+
+}

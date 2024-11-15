@@ -1,0 +1,5 @@
+package com.walmart.greeting;
+
+public class HelloWorld {
+
+}
