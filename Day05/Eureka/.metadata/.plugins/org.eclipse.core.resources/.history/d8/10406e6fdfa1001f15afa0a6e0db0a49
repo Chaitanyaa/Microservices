@@ -1,0 +1,19 @@
+spring.application.name=cs
+
+#This is a built-in file used to customize the configuration
+#There are lot of built-in properties given by spring team
+
+#Datasource properties
+spring.datasource.url=jdbc:mysql://localhost:3306/coupon_db
+spring.datasource.username=root
+spring.datasource.password=Training@1234
+
+#JPA Properties
+spring.jpa.show-sql=true
+#create table if not exists
+spring.jpa.hibernate.ddl-auto=update
+
+#Server Properties
+#Assigning port 0 means dynamically assigning unused port to this instance.
+server.port=0
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka

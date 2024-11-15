@@ -1,0 +1,15 @@
+package com.walmart.api.notification.service.impl;
+
+import org.springframework.jms.annotation.JmsListener;
+import org.springframework.stereotype.Service;
+
+@Service
+public class NotificationServiceImpl {
+	// We want this method should be automatically executed
+	// whenever there is a message in the queue
+	// Should accept argument same message type in the queue
+	@JmsListener(destination="email_queue")
+	public void processNotification(String msg) {
+		System.out.println(msg);
+	}
+}

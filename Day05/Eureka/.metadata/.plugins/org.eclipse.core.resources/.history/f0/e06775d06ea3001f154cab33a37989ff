@@ -1,0 +1,5 @@
+package com.walmart.api.order.rest.request;
+
+public class NotificationRequest {
+
+}

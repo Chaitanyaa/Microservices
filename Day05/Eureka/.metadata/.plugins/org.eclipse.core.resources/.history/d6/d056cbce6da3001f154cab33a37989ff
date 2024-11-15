@@ -1,0 +1,5 @@
+package com.walmart.api.notification.service.impl;
+
+public class NotificationServiceImpl {
+
+}
